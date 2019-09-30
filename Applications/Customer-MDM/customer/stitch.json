@@ -1,0 +1,8 @@
+{
+    "app_id": "customer-kgkuo",
+    "config_version": 20180301,
+    "name": "customer",
+    "location": "US-VA",
+    "deployment_model": "GLOBAL",
+    "security": {}
+}
