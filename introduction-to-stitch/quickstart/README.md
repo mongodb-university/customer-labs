@@ -48,6 +48,7 @@ This will bring up a window prompting you to build your first cluster.  Click th
 
 __"Cluster0"__ is the default name and works well for importing data and projects later. Click the __"Create Cluster"__ button at the bottom and your cluster will be ready in the next 7 to 10 minutes.
 
+[Table of Contents](#-contents) 
 ![end](../img/section-end.png)
 
 ## ![2](../img/2b.png) Load Sample Data
@@ -63,6 +64,7 @@ After the sample data is loaded, we will want to see the data and explore the do
 
 Navigate to the __"samples_supplies"__ database namespace and expand the database to see the sales collection.  Click the __"sales"__ collection and the sales data is displayed in document format.  If you hover over the first document a __">"__ arrow will appear in the upper left, pressing the button will expand the document and show all the values in nested arrays.   
 
+[Table of Contents](#-contents) 
 ![end](../img/section-end.png)
 
 ## ![3](../img/3b.png)  Query the Sample data
@@ -85,11 +87,12 @@ We can do a more advanced find.  We have been asked to generate a report on cust
 ```  
 After looking at the data Denver has been selected to test the theory that offering a discount on supplies will create an incentive for people who have retired to greatly increase the number of items they purchase.   
 
+[Table of Contents](#-contents) 
 ![end](../img/section-end.png)
 
 
 ## ![4](../img/4b.png) Create a Stitch Application   
-Our next step is to create an application to query the sales data and offer promotional discounts to customers who live in Denver and are of retirement age.  We will begin by creating our stitch application.  This task is accomplished by selecting __"Stitch"__ from the left-hand navigation menu of the cluster we just created.
+Our next step is to create an application to query the sales data and offer promotional discounts to customers who live in Denver and are of retirement age.  We will begin by creating our stitch application.  This task is accomplished by selecting __"Stitch"__ from the left-hand navigation menu of the cluster we just created.   
 
 ![Application](../img/stitch1.jpg)
 
@@ -97,8 +100,9 @@ We click the large green button labeled __"Create new Application"__ and give th
 
 ![Application](../img/stitch2.jpg)
 
-Click the little green __"Create"__ button in the lower right hand of the popup window.  The stitch application console will appear as soon as the application has been created and linked with the cluster. 
+Click the little green __"Create"__ button in the lower right hand of the popup window.  The stitch application console will appear as soon as the application has been created and linked with the cluster.   
 
+[Table of Contents](#-contents) 
 ![end](../img/section-end.png)
 
 
@@ -185,8 +189,9 @@ We are no longer limited to searching for any one particular field.  Let us find
 
 ```js
 exports({"customer.age": 65, "customer.gender": "F", "storeLocation": "Denver"})
-```
+```   
 
+[Table of Contents](#-contents) 
 ![end](../img/section-end.png)
 
 
