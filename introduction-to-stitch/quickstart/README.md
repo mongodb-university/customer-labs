@@ -48,7 +48,7 @@ This will bring up a window prompting you to build your first cluster.  Click th
 
 __"Cluster0"__ is the default name and works well for importing data and projects later. Click the __"Create Cluster"__ button at the bottom and your cluster will be ready in the next 7 to 10 minutes.
 
-[Table of Contents](#-contents) 
+[Table of Contents](#contents) 
 ![end](../img/section-end.png)
 
 ## ![2](../img/2b.png) Load Sample Data
@@ -64,7 +64,7 @@ After the sample data is loaded, we will want to see the data and explore the do
 
 Navigate to the __"samples_supplies"__ database namespace and expand the database to see the sales collection.  Click the __"sales"__ collection and the sales data is displayed in document format.  If you hover over the first document a __">"__ arrow will appear in the upper left, pressing the button will expand the document and show all the values in nested arrays.   
 
-[Table of Contents](#-contents) 
+[Table of Contents](#contents) 
 ![end](../img/section-end.png)
 
 ## ![3](../img/3b.png)  Query the Sample data
@@ -87,7 +87,7 @@ We can do a more advanced find.  We have been asked to generate a report on cust
 ```  
 After looking at the data Denver has been selected to test the theory that offering a discount on supplies will create an incentive for people who have retired to greatly increase the number of items they purchase.   
 
-[Table of Contents](#-contents) 
+[Table of Contents](#contents)  
 ![end](../img/section-end.png)
 
 
@@ -102,7 +102,7 @@ We click the large green button labeled __"Create new Application"__ and give th
 
 Click the little green __"Create"__ button in the lower right hand of the popup window.  The stitch application console will appear as soon as the application has been created and linked with the cluster.   
 
-[Table of Contents](#-contents) 
+[Table of Contents](#contents) 
 ![end](../img/section-end.png)
 
 
@@ -191,7 +191,7 @@ We are no longer limited to searching for any one particular field.  Let us find
 exports({"customer.age": 65, "customer.gender": "F", "storeLocation": "Denver"})
 ```   
 
-[Table of Contents](#-contents) 
+[Table of Contents](#contents) 
 ![end](../img/section-end.png)
 
 
@@ -278,8 +278,10 @@ exports = async function(payload) {
 ![webhook](../img/webhook2.jpg)
 
 We have created two functions and exposed them as REST based Services, it is now time to test the services we created. __Note:__ As we make changes to our Stitch application, we need to deploy the changes before we can test.  Be sure to click the "Review & Deploy Changes" button in the blue bar atthe top of the screen.
-![Function](../img/deploy.png)
+![Function](../img/deploy.png)   
 
+
+[Table of Contents](#contents) 
 ![end](../img/section-end.png)
 
 
@@ -394,8 +396,9 @@ Try the following complex query and view the result.
 
 __Note:__ If you are experiencing trouble you can view the console log in the browser.  In chrome select the "Hamburger" menu item (three verticle dots) then select the menu item __"More Tools"__ --> __"Developer Tools"__ and it will bring up the developer tools pane at the bottom of the chrome broswer, click the console tab.
 
-Our test has been successful.  Lets create an application using the broswer SDK that provides the search capability we need and formats the results as rows and columns so we can quickly inspect the results of many documents at once.  To do this properly we need to create a user or some form of authentication.
+Our test has been successful.  Lets create an application using the broswer SDK that provides the search capability we need and formats the results as rows and columns so we can quickly inspect the results of many documents at once.  To do this properly we need to create a user or some form of authentication.   
 
+[Table of Contents](#contents) 
 ![end](../img/section-end.png)
 
 
@@ -410,8 +413,9 @@ For now we will generate an API Key.  Select the __"API Keys"__ option and click
 
 ![users](../img/users3.jpg "users")
 
-Type in a name for the API Key, something like "BackOffice" or "WebAccess" and click save.  A private key will be displayed.  Copy that key and paste it into a text editor of your choice.  Then create the api key.  We will use that key to access the database through the stitch browser SDK.
+Type in a name for the API Key, something like "BackOffice" or "WebAccess" and click save.  A private key will be displayed.  Copy that key and paste it into a text editor of your choice.  Then create the api key.  We will use that key to access the database through the stitch browser SDK.   
 
+[Table of Contents](#contents) 
 ![end](../img/section-end.png)
 
 
@@ -483,8 +487,9 @@ The body tag of the application calls the __displayCustomersOnLoad__ function sh
 
 The best getting started guide with the browser client SDK is [the blog tutorial](https://docs.mongodb.com/stitch/tutorials/blog-overview/).  It consists of two main parts, the [Blog tutorial back end](https://docs.mongodb.com/stitch/tutorials/guides/blog-backend/), and the [Blog tutorial front end](https://docs.mongodb.com/stitch/tutorials/guides/blog-web/).  We will offer a condensed version of the blog tutorial with a couple of new concepts.  It is highly recommended to complete the blog tutorial when you have time.
 
-Additional information on the application of rules and third party authentication can be found in the [todo web app tutorial](https://docs.mongodb.com/stitch/tutorials/todo-overview/)   
+Additional information on the application of rules and third party authentication can be found in the [todo web app tutorial](https://docs.mongodb.com/stitch/tutorials/todo-overview/)     
 
+[Table of Contents](#contents) 
 ![end](../img/section-end.png)
 
 
@@ -523,8 +528,10 @@ Use the QueryAnywhere.html app to select a customer and update the Promo Code fi
 
 Use the QueryAnywhere.html app to update the Promo Code field to a new value for the same customer.  View the history collection again and you can now see the history of changes to the sales document.  We have implemented [document versioning](https://www.mongodb.com/blog/post/building-with-patterns-the-document-versioning-pattern) through a trigger.  This is part of [building MongoDB Applications with design patterns](https://www.mongodb.com/blog/post/building-with-patterns-a-summary)
 
-![Query Anywhere](../img/trigger3.jpg)
+![Query Anywhere](../img/trigger3.jpg)   
 
+
+[Table of Contents](#contents) 
 ![end](../img/section-end.png)
 
 
@@ -593,8 +600,8 @@ While we don't have the time to create this in the lab you can, create a new HTT
       console.log("Successfully sent the post request!", JSON.stringify(data));
     });
 ...
-```
-
+```   
+[Table of Contents](#contents) 
 ![end](../img/section-end.png)
 
 
@@ -623,6 +630,7 @@ Next we expand the items array and select __"quantity"__, and drag the field int
 
 We now have our chart and we see that the Age 50-75 demographic represents a healthy portion of all items sold.  
 
+[Table of Contents](#contents) 
 ![end](../img/section-end.png)
 
 
@@ -666,7 +674,9 @@ You can place the chart anywhere.  After I copied the iframe chart reference I p
 ![Charts](../img/embedchart6.jpg)
 
 
-Additional documentation on embedding charts can be found [here](https://docs.mongodb.com/charts/master/embedding-charts/)
+Additional documentation on embedding charts can be found [here](https://docs.mongodb.com/charts/master/embedding-charts/)   
+
+[Table of Contents](#contents) 
 ![end](../img/section-end.png)
 
 
@@ -698,8 +708,8 @@ If necessary we can select the __Actions__ drop list and select __Flush CDN Cach
 We can now refrence our application through the following url:
 ```
 https://<your-app-id>.mongodbstitch.com/QueryAnywhere.html
-```
-
+```    
+[Table of Contents](#contents) 
 ![end](../img/section-end.png)
 
 
@@ -738,4 +748,4 @@ To be clear the process is as follows:
 
 Steps 3 and 4 are typically scripted with the CICD build process making calls to Atlas and the stitch-cli.
 
-
+[Table of Contents](#contents) 
