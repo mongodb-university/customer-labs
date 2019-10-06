@@ -378,9 +378,9 @@ What we need is to be able to handle both a GET request with a query parameter (
   </body>
 </html>
 ```
-Cut and paste the code above into your text editor and save the file as [postrapper.html](../html/postrapper.html).  Double click the file to open it in your browser.  Then copy and paste the webhook url from the webhook settings as seen below.
+Cut and paste the code above into your text editor and save the file as [postrapper.html](./html/postrapper.html).  Double click the file to open it in your browser.  Then copy and paste the webhook url from the webhook settings as seen below.
 
-Alternatively you can copy the source by clicking the [postrapper.html link here](../html/postrapper.html) and copying the contents to save in your text editor as postrapper.html. 
+Alternatively you can copy the source by clicking the [postrapper.html link here](./html/postrapper.html) and copying the contents to save in your text editor as postrapper.html. 
 
 ![webhook](./img/webhook3.jpg)   
 
@@ -442,7 +442,7 @@ When we deploy our changes the rules we have specified are displayed for us in J
 ### Our HTML Application
 We have a prebuilt QueryAnywhere.html file that shows us how to use the browser SDK file.
 
-Copy the code from the [QueryAnywhere.html](../html/QueryAnywhere.html) file.  Right click and select "open file in new tab" on the [QueryAnywhere.html](../html/QueryAnywhere.html) link. Click the __"view raw file"__ button and select all the text. Copy it and paste it in your text editor.  Save the file as QueryAnywhere.html
+Copy the code from the [QueryAnywhere.html](./html/QueryAnywhere.html) file.  Right click and select "open file in new tab" on the [QueryAnywhere.html](./html/QueryAnywhere.html) link. Click the __"view raw file"__ button and select all the text. Copy it and paste it in your text editor.  Save the file as QueryAnywhere.html
 
 Inside the file we have to make a few chnags before we can connect. Replace your your-api-key with the private api key you generated in step 8. You may have to repeat step 8 if you forgot to copy the private API key.  Replace your-app-id with the stitch APP-ID located in the upper left of the stitch console.
 ```js
