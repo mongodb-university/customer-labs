@@ -19,6 +19,8 @@ _Solution Architect Authors_: [Britton LaRoche](mailto:britton.laroche@mongodb.c
 [15. Stitch Command Line - CICD Integration](#-stitch-command-line---cicd-integration)   
 
 # Overview
+MongoDB Stitch is a serverless platform that enables developers to quickly build applications without having to set up server infrastructure. Stitch is built on top of MongoDB Atlas, automatically integrating the connection to your database.
+
 Stitch provides Serverless compute functionality much like AWS lambda. In fact AWS Lambda can utilize the Stitch SDK to communicate directly with Atlas.  Stitch provides greater control over the connections to the database and reduces the number of concurrent connections required by Lambda.  Stitch serverless compute functionality can be accessed through an SDK or a REST based API. Additionally, you can write application code in JavaScript to run on Stitch serverless compute.  You can write an entire serverless application and access MongoDB through database as a service on Atlas.  This workshop will have your execute your code and host your entire application and data in the cloud.
 
 Our lab is designed to teach Atlas and Stitch as quickly as possible with no dependencies.  You will only need a browser and a text editor. We will create a free tier Atlas cluster, load in some sample data and explore the document data model.  We will learn some basic queries against the document data model.  Next, we will create our first stitch application and query the database.  We will enable the Stitch serverless REST API to access and update data.  We will create a stitch trigger and finally a QueryAnywhere browser SDK application.
