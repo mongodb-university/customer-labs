@@ -42,10 +42,13 @@ Click the __"get started free"__ button.  This will bring up a screen for you to
 Fill in your personal information.  Feel free to use your work or personal email address, either is fine as this is your personal "free for life" development environment.  Agree to the terms of service and click the __"get started free"__ button.  
  
 
-![build your cluster](./img/signup2.png "build your first cluster")   
+![select your path](./img/signup2.png "select your path")   
 
-Select the free option on the left.  This will bring up a window prompting you to build your first cluster.  Click the __"build your first cluster"__ button.  When prompted to select your path select "Shared services" to getthe free tier. 
+When prompted to select your path select "Shared services" to getthe free tier. (Select the free option on the left.  )   
 
+![build your cluster](./img/signup3.png "build your first cluster")   
+
+This will bring up a window prompting you to build your first cluster.  Click the __"build your first cluster"__ button.
 
 After clicking the Click the __"build your first cluster"__ button, you will be prompted to name your cluster.  "
 
