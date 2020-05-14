@@ -44,7 +44,7 @@ Fill in your personal information.  Feel free to use your work or personal email
 
 Select the free option on the left.   
 
-![build your cluster](./img/singup2.png "build your first cluster")   
+![build your cluster](./img/signup2.png "build your first cluster")   
 
 This will bring up a window prompting you to build your first cluster.  Click the __"build your first cluster"__ button.  When prompted select "Learning MongoDB" as to the reason you are interested in Atlas. 
 
