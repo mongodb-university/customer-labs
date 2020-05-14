@@ -37,12 +37,12 @@ Open a modern browser and go to https://cloud.mongodb.com.  Register for an atla
 
 Click the __"get started free"__ button.  This will bring up a screen for you to enter your personal information.
 
-![Create free your account](./img/register2.jpg "Create your free account")   
+![Create free your account](./img/signup1.jpg "Create your free account")   
 
 Fill in your personal information.  Feel free to use your work or personal email address, either is fine as this is your personal "free for life" development environment.  Agree to the terms of service and click the __"get started free"__ button.  
 
 
-![build your cluster](./img/register3.jpg "build your first cluster")   
+![build your cluster](./img/singup2.jpg "build your first cluster")   
 
 This will bring up a window prompting you to build your first cluster.  Click the __"build your first cluster"__ button.  When prompted select "Learning MongoDB" as to the reason you are interested in Atlas. After clicking the Click the __"build your first cluster"__ button, you will be prompted to name your cluster.  "
 
