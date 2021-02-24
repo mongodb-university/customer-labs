@@ -25,7 +25,7 @@ Stitch provides Serverless compute functionality much like AWS lambda. In fact A
 
 Our lab is designed to teach Atlas and Stitch as quickly as possible with no dependencies.  You will only need a browser and a text editor. We will create a free tier Atlas cluster, load in some sample data and explore the document data model.  We will learn some basic queries against the document data model.  Next, we will create our first stitch application and query the database.  We will enable the Stitch serverless REST API to access and update data.  We will create a stitch trigger and finally a QueryAnywhere browser SDK application.
 
-![Diagram](./img/workshop8.png "Diagram")
+![Diagram](./img/Workshop%20Quickstart%20Updated.png "Diagram")
 
 The diagram above shows us all the objects we will be creating in this quick tutorial and how they interact.  The next 15 steps will give you the understanding you need to develop your own application using Atlas and Stitch.
 
